@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(90deg ,#A0D8CB  ,#038C7A);
+    text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    background-color: black;
+    color: #038C7A;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#chance{
+    font-family: 'Roboto Slab', serif;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 496px;
+    width: 312px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+img{
+    padding: 2px;
+}
+
+.restart{
+    width: 80px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+}
+
+footer p{
+    padding: 8px;
+    font-size: small;
+}
